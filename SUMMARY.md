@@ -2,12 +2,8 @@
 
 ## 🎀 Cyanide's Hacker Strategy Archive
 
-* [Page 3](README.md)
-* [Page 2](cyanides-hacker-strategy-archive/page-2.md)
-
-***
-
-* [Page](<README (1).md>)
+* [💉 SQLmap (OP as fuck)](README.md)
+* [🧸 About me (Cyanide/H3ll0k1tty haxxor)](cyanides-hacker-strategy-archive/about-me-cyanide-h3ll0k1tty-haxxor.md)
 
 ## 🔓 Encryption & Entry Techniques
 

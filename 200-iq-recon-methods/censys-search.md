@@ -1,6 +1,6 @@
 # Censys Search
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Picture of Censys Search</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Picture of Censys Search</p></figcaption></figure>
 
 Censys Search is a powerful tool to search for IPs behind WAFs (Web Application Firewall) such as for example CloudFlare. If you are lucky you can use different searching queries and a bit of your brain to try to connect the dots and you might be able to find the origin IP of the webserver that is behind the domain
 
