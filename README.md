@@ -74,12 +74,38 @@ MySQL >= 5.0.12
 
 
 
-or you can use it as a tamper as a python script  in sqlmap:\
+or you can use it as a tamper as a python script  in sqlmap:
+
+#### if possibel stacking SQL Queries in MySQL to maybe get full shell and full server access (Remote code execution)
+
+#### Stacked let you execute multiple SQL statements in a single database request.&#x20;
+
+#### This method is works in MySQL version 5.0.12 and later....  multiple statements can be executed simultaneously if you seperate them them with a semicolon (`;`).
 
 
 
 
-so my pro sophisticated method is as pure as a computer can come because of logical.. making it almost impossible for firewalls or other security to detect the attempts.&#x20;
+
+Example of stacked query, this is in payloads xml from SQLMap btw
+
+```xml
+<vector>;SELECT IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])</vector>
+```
+
+This payload uses the `IF` statement to check a condition (`[INFERENCE]`), and based on maybe it delays the response using `SLEEP([SLEEPTIME])` or it will gen random number (`[RANDNUM]`). This allows us to know if the inejection worked based on sleep time from burpsuite or something
+
+
+
+```xml
+<request>
+    <payload>;SELECT SLEEP([SLEEPTIME])</payload>
+</request>
+```
+
+
+
+\
+Anyways my pro sophisticated method is as pure as a computer can come because of logical.. making it almost impossible for firewalls or other security to detect the attempts.&#x20;
 
 By using logical operations ('AND', 'NOT') we can make the most stealthy and most "bypassable" method for SQL injection attacks.
 

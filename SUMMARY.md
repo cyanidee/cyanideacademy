@@ -7,14 +7,14 @@
 
 ## 🔓 Encryption & Entry Techniques
 
-* [Page 1](encryption-and-entry-techniques/page-1.md)
+* [Encryptioonz](encryption-and-entry-techniques/encryptioonz.md)
 
 ## 📱 Mobile Hacking
 
 * [IOS](mobile-hacking/ios/README.md)
-  * [Coming soon](mobile-hacking/ios/coming-soon.md)
+  * [Coming soon](mobile-hacking/ios/page-4.md)
 * [Android](mobile-hacking/android/README.md)
-  * [Coming soon](mobile-hacking/android/coming-soon.md)
+  * [Coming soon](mobile-hacking/android/page-5.md)
 
 ## 🧠 200 IQ Recon Methods
 
