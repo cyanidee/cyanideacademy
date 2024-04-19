@@ -12,9 +12,9 @@
 ## 📱 Mobile Hacking
 
 * [IOS](mobile-hacking/ios/README.md)
-  * [Page 4](mobile-hacking/ios/page-4.md)
+  * [Coming soon](mobile-hacking/ios/coming-soon.md)
 * [Android](mobile-hacking/android/README.md)
-  * [Page 5](mobile-hacking/android/page-5.md)
+  * [Coming soon](mobile-hacking/android/coming-soon.md)
 
 ## 🧠 200 IQ Recon Methods
 
