@@ -53,14 +53,14 @@ hashcat.exe -a 6 C:\hash.txt .\sports.txt ?d?d?d?d
 <strong>hashcat.exe -a 3 C:\hash.txt ?l?l?l?l?l?d?d?d
 </strong></code></pre>
 
-#### **Prince Attack for Efficient Word Combination**
+#### **Prince Attack for Efficient Word Combination:**
 
 ```powershell
 # Example: "apple" and "123" combined in various ways like "apple123" or "123apple".
 hashcat.exe --prince=./wordlist1.txt C:\hash.txt
 ```
 
-#### **Custom charset combination**
+#### **Custom charset combination:**
 
 ```powershell
 # Example: "admin" could become "admin2021!" by focusing on letters and digits with common special characters.
