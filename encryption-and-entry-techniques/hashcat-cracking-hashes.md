@@ -28,16 +28,17 @@ hashcat.exe -a 6 C:\hash.txt .\wordlist.txt ?d?d
 
 **Toggle case (Rule based attack):** &#x20;
 
-<pre class="language-powershell"><code class="lang-powershell"># Toggle Case Attack example using "April"
-<strong>hashcat.exe -a 0 C:\hash.txt .\wordlist.txt -r .\rules\togglecase.rule
-</strong><strong>
-</strong><strong># Possible outputs password
-</strong><strong># "password" (all lowercase)
-</strong><strong># "PASSWORD" (all uppercase)
-</strong># "pASSWORD" (first letter lowercase, rest uppercase)
+```powershell
+# Toggle Case Attack example using "password"
+hashcat.exe -a 0 C:\hash.txt .\wordlist.txt -r .\rules\togglecase.rule
+
+# Possible outputs password
+# "password" (all lowercase)
+# "PASSWORD" (all uppercase)
+# "pASSWORD" (first letter lowercase, rest uppercase)
 # "PaSsWoRd" (alternating case)
 # "pAsSwOrD" (opposite alternating case)
-</code></pre>
+```
 
 #### **Associative Attack Patterns:**
 
