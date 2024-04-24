@@ -21,14 +21,14 @@ hashcat.exe -a 1 -m 1000 C:\hash.txt .\wordlist1.txt .\wordlist2.txt -j $- -k $!
 
 **Hybrid attack:**&#x20;
 
-```bash
+```powershell
 # Example: "summer" becomes "summer89" or "summer!#".
 hashcat.exe -a 6 C:\hash.txt .\wordlist.txt ?d?d
 ```
 
 **Toggle case (Rule based attack):** &#x20;
 
-<pre class="language-bash"><code class="lang-bash"># Toggle Case Attack example using "April"
+<pre class="language-powershell"><code class="lang-powershell"># Toggle Case Attack example using "April"
 <strong>hashcat.exe -a 0 C:\hash.txt .\wordlist.txt -r .\rules\togglecase.rule
 </strong><strong>
 </strong><strong># Possible outputs password
@@ -41,34 +41,34 @@ hashcat.exe -a 6 C:\hash.txt .\wordlist.txt ?d?d
 
 #### **Associative Attack Patterns:**
 
-```bash
+```powershell
 # Example: "Olympics2020" by appending a significant year to a sports-related word.
 hashcat.exe -a 6 C:\hash.txt .\sports.txt ?d?d?d?d
 ```
 
 #### **Keyboard Walks and Patterns (interesting method uwu):**
 
-<pre class="language-bash"><code class="lang-bash"># Example: "qwert" might be extended to "qwert123" following a typical keyboard pattern.
+<pre class="language-powershell"><code class="lang-powershell"># Example: "qwert" might be extended to "qwert123" following a typical keyboard pattern.
 <strong>hashcat.exe -a 3 C:\hash.txt ?l?l?l?l?l?d?d?d
 </strong></code></pre>
 
 #### **Prince Attack for Efficient Word Combination**
 
-```bash
+```powershell
 # Example: "apple" and "123" combined in various ways like "apple123" or "123apple".
 hashcat.exe --prince=./wordlist1.txt C:\hash.txt
 ```
 
 #### **Custom charset combination**
 
-```bash
+```powershell
 # Example: "admin" could become "admin2021!" by focusing on letters and digits with common special characters.
 hashcat.exe -a 3 C:\hash.txt -1 ?l?d -2 ?u?s ?1?1?2?2
 ```
 
 ## Cracking Linux Hashes (/etc/shadow)
 
-```bash
+```powershell
 # -m parameter values (500, 3200, 7400, 1800)
 
  500 | md5crypt $1$, MD5(Unix)                          | Operating-Systems
@@ -81,7 +81,7 @@ hashcat.exe -a 3 C:\hash.txt -1 ?l?d -2 ?u?s ?1?1?2?2
 
 ## Cracking Windows Hashes (NTLM & LM)
 
-```bash
+```powershell
 # -m parameter values (3000, 1000)
 
 3000 | LM                                               | Operating-Systems
