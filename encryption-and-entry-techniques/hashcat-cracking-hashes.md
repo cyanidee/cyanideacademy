@@ -8,7 +8,7 @@ Supported on: **Linux, Windows and OSX**
 
 **Wordlist attack:**
 
-```bash
+```powershell
 # Single wordlist attack on MD4 (-m 1400)
 hashcat.exe -m 1400 C:\hash.txt .\rockyou.txt 
 
@@ -23,7 +23,7 @@ hashcat.exe -a 1 -m 1000 C:\hash.txt .\wordlist1.txt .\wordlist2.txt -j $- -k $!
 
 ```bash
 # Example: "summer" becomes "summer89" or "summer!#".
-.\hashcat.exe -a 6 C:\hash.txt .\wordlist.txt ?d?d
+hashcat.exe -a 6 C:\hash.txt .\wordlist.txt ?d?d
 ```
 
 **Toggle case (Rule based attack):** &#x20;
@@ -63,7 +63,7 @@ hashcat.exe --prince=./wordlist1.txt C:\hash.txt
 
 ```bash
 # Example: "admin" could become "admin2021!" by focusing on letters and digits with common special characters.
-hashcat.exe -a 3 C:\Temp\ntlm.txt -1 ?l?d -2 ?u?s ?1?1?2?2
+hashcat.exe -a 3 C:\hash.txt -1 ?l?d -2 ?u?s ?1?1?2?2
 ```
 
 ## Cracking Linux Hashes (/etc/shadow)
