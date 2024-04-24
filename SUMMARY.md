@@ -8,6 +8,7 @@
 ## 🔓 Encryption & Entry Techniques
 
 * [Encryptioonz](encryption-and-entry-techniques/encryptioonz.md)
+* [🐈‍⬛ Hashcat - cracking hashes](encryption-and-entry-techniques/hashcat-cracking-hashes.md)
 
 ## 📱 Mobile Hacking
 
