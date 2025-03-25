@@ -10,7 +10,8 @@ Email: admin@cyanide.net
 
 ## Bounties & honorable mentions:
 
-* Found **zero day** vulnerability in **XenForo** (Jan, 2025)
+* Found **zero day** vulnerability in **XenForo** (Jan, 2025)&#x20;
+* Verified by **XenForo team** (Mar, 2025)
 * [https://xenforo.com/community/threads/security-issue.228884/#post-1731581](https://xenforo.com/community/threads/security-issue.228884/#post-1731581)
 
 
