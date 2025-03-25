@@ -8,5 +8,5 @@
 
 ## Advanced exploiting
 
-* [Bypassing firewalls](advanced-exploiting/bypassing-firewalls.md)
+* [🧱 Bypassing firewalls](advanced-exploiting/bypassing-firewalls.md)
 * [💉 Second order SQL injections](advanced-exploiting/second-order-sql-injections.md)
