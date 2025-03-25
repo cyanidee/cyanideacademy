@@ -49,18 +49,6 @@
 
 
 
-### **ascension**.gg
-
-* Personal Github Token leak **($2.5k bounty reward) (2024)**
-
-
-
-###
-
-
-
-
-
 ### Skills and Expertise
 
 * **Web Hacking and Bug Bounty Hunting:** HTB certified, skilled in identifying and exploiting vulnerabilities.
