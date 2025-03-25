@@ -1,3 +1,5 @@
 # Table of contents
 
-* [Page](README.md)
+## 🎀 Cyanide's Hacker Strategy Archive
+
+* [🧸 About me](README.md)
