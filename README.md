@@ -1,7 +1,3 @@
----
-description: Cyanide
----
-
 # 🧸 About me
 
 Discord: cyanidee.
