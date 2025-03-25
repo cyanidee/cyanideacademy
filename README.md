@@ -1,8 +1,8 @@
 # 🧸 About me
 
-Discord: cyanidee.
+**Discord: cyanidee.**
 
-Email: admin@cyanide.net
+**Email: admin@cyanide.net**
 
 
 
