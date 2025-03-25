@@ -10,59 +10,79 @@ Email: admin@cyanide.net
 
 
 
-[**Achivements**](#user-content-fn-1)[^1]:
-
-Finding 0day vulnerability in XenForo ([https://xenforo.com/community/threads/security-issue.228884/#post-1731581](https://xenforo.com/community/threads/security-issue.228884/#post-1731581))
-
 {% embed url="https://craftigames.net/security/hall-of-fame" %}
 
-Other honorable mentions:
+## Bounties & honorable mentions:
 
-**pika-network.net, jartex-network.net**\
-SQL injection (2021)
-
-Hidden virtual host and bypassing CloudFlare firewall with warp (2025) ($250 bounty reward and [hall of fame](https://craftigames.net/security/hall-of-fame))
-
-**manacube.net**&#x20;
-
-SQL injection (2022) ($200 usd bounty reward)
+* Found **zero day** vulnerability in **XenForo** (Jan, 2025)
+* [https://xenforo.com/community/threads/security-issue.228884/#post-1731581](https://xenforo.com/community/threads/security-issue.228884/#post-1731581)
 
 
 
-**mc-complex.net**\
-SQL injection (2024) and LFI (2025)
+### pika-network.net, jartex-network.net
+
+* SQL injection **(2021)**
+* Hidden virtual host and bypassing CloudFlare firewall with warp **(2025) ($250 bounty reward)**
+* **Listed on** [**hall of fame**](https://craftigames.net/security/hall-of-fame)
 
 
 
-**luckyblock.com**&#x20;
+### **Banknorwegian**
 
-RCE webshell escalated from SQLi (2024
+* Cross site scripting (XSS) in Banknorwegian (index page) (2024):&#x20;
+* banknorwegian.dk, banknorwegian.no, banknorwegian.fi,  banknorwegian.fi, banknorwegian.de
 
+### **ascension**.gg
 
+* Personal Github Token leak **($2.5k bounty reward) (2024)**
 
-**Ascension.gg**
+### manacube.net
 
-Personal Github Token leak ($2.5k bounty reward) (2024)
+* SQL injection **(2022) ($200 usd bounty reward)**
 
+### mc-complex.net
 
-
-**Banknorwegian**&#x20;
-
-XSS in banknorwegian (index page) (2024):&#x20;
-
-banknorwegian.dk, banknorwegian.no, banknorwegian.fi,  banknorwegian.fi, banknorwegian.de
-
+* SQL injection **(2024)** and LFI **(2025)**
 
 
 
+### luckyblock.com
+
+* RCE webshell escalated from SQLi **(2024)**
 
 
 
-Expertise:
+### **ascension**.gg
 
-Web hacking, bug bounty HTB certified, full-stack web developer (2nd hobby), manual and advanced SLQi, bypassing firewalls (IDS bypassing), command injections, networking, Zero day development, physical attacks: Evil Twin, ARP spoofing, SS7 attacks etc. DNS poisoning, privilege escalation (mainly Linux),buffer overflows, directory traversal, Python programming language, Linux operating system, docker virtualization and OSINT/Reconnaissance such as finding origin IPs behind firewalls.&#x20;
+* Personal Github Token leak **($2.5k bounty reward) (2024)**
 
-Certifications:\
-Django, web design, web development, CSS, python language, javascript language, HTB bug bounty path.
 
-[^1]: 
+
+###
+
+
+
+
+
+### Skills and Expertise
+
+* **Web Hacking and Bug Bounty Hunting:** HTB certified, skilled in identifying and exploiting vulnerabilities.
+* **Full-Stack Web Development:** Proficient as a secondary hobby.
+* **Advanced Security Attacks:**
+  * SQL Injection (SLQi)
+  * Firewall and IDS Bypassing
+  * Command Injections
+  * Zero-Day Development
+* **Network Attacks:**
+  * Evil Twin
+  * ARP Spoofing
+  * SS7 Attacks
+  * DNS Poisoning
+* **Privilege Escalation:** Specializing in Linux environments.
+* **Buffer Overflows and Directory Traversal**
+* **Programming and OS Proficiency:**
+  * Skilled in Python
+  * Can work with C and Assembly x86-64
+  * Expertise with Linux OS
+  * Docker Virtualization
+* **OSINT/Reconnaissance:** Capable of finding origin IPs behind firewalls and bypassing IDS.&#x20;
