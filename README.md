@@ -7,10 +7,12 @@
 
 
 {% embed url="https://craftigames.net/security/hall-of-fame" %}
-Hall of fame listing
+Hall of fame listing on craftigames.net
 {% endembed %}
 
 {% embed url="https://www.4chan.org/security#thanks" %}
+Hall of fame listing on 4chan.org
+{% endembed %}
 
 ## Bounties & honorable mentions:
 
