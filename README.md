@@ -29,8 +29,9 @@ Hall of fame listing on 4chan.org
 
 
 
-### pika-network.net, jartex-network.net (part of craftigames.net)
+### pika-network.net, jartex-network.net
 
+* Both domains are part of craftigames.net
 * SQL injection **(2021)**
 * Hidden virtual host and bypassing CloudFlare firewall with warp **(2025) ($250 bounty reward)**
 * **Listed on** [**hall of fame**](https://craftigames.net/security/hall-of-fame)
