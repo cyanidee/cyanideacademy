@@ -16,11 +16,11 @@ Hall of fame listing on 4chan.org
 
 ## Bounties & honorable mentions:
 
-### NASA (U.S. Space Agency)
+### NASA - U.S. Space Agency
 
-* Priority P1  **(May, 2025) (Critical Security Vulnerability)**
-* Validated by NASA's VDP Team & Publicly Acknowledged via Bugcrowd CrowdStream
-* Publicly listed on [**Bugcrowd**](https://bugcrowd.com/cy4n1de/crowdstream)
+* Priority P1 **(Critical Security Vulnerability)**
+* Validated by NASA's Vulnerability Disclosure Program
+* Publicly acknowledged on [**Bugcrowd CrowdStream**](https://bugcrowd.com/cy4n1de/crowdstream)&#x20;
 
 <figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
