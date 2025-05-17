@@ -23,9 +23,6 @@ Hall of fame listing on 4chan.org
 ### NASA - U.S. Space Agency
 
 * **Critical Security Vulnerability (Priority P1 – Highest Severity)**
-
-**Helped NASA fix a major cybersecurity issue**
-
 * Confirmed and acknowledged by NASA's security team.
 * Official recognition on a top security platform [**Bugcrowd's Hall of Fame**](https://bugcrowd.com/cy4n1de/crowdstream)
 
