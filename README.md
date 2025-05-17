@@ -18,9 +18,9 @@ Hall of fame listing on 4chan.org
 
 ### NASA - U.S. Space Agency
 
-* Priority P1 **(Critical Security Vulnerability)**
-* Validated by NASA's Vulnerability Disclosure Program
-* Publicly acknowledged on [**Bugcrowd CrowdStream**](https://bugcrowd.com/cy4n1de/crowdstream)&#x20;
+* **Critical Security Vulnerability (Priority P1 – Highest Severity)**
+* Accepted by NASA's Security Team
+* Publicly acknowledged on [**Bugcrowd's CrowdStream**](https://bugcrowd.com/cy4n1de/crowdstream)&#x20;
 
 <figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
