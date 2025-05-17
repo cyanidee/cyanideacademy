@@ -4,6 +4,10 @@
 
 **Email: admin@cyanide.net**
 
+**Bugcrowd: cy4n1de**
+
+**HackerOne: cy4n1de**
+
 
 
 {% embed url="https://craftigames.net/security/hall-of-fame" %}
